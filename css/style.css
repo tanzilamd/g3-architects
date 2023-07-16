@@ -21,6 +21,11 @@
 .text-light-gray {
     color: #727272;
 }
+.section-title {
+    font-size: 2.5rem;
+    color: #131313;
+    font-weight: 700;
+}
 
 /* Header */
 header {
@@ -32,11 +37,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.nav-title {
-    font-size: 2.5rem;
-    color: #131313;
-    font-weight: 700;
-}
+
 nav > ul {
     display: flex;
 
@@ -72,10 +73,11 @@ main {
     max-width: 1440px;
     margin: 70px auto;
 }
-/* Features section */
+/* Teams section */
 .teams-container {
     display: flex;
     align-items: center;
+    
 
 }
 .teams-img-container {
