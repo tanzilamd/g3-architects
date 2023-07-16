@@ -97,11 +97,59 @@ main {
     color: #131313;
     font-weight: 700;
 } 
-.teams-title .features {
+.teams-title .features-span {
     color: #FF900E;
     font-weight: 700;
 }
 
+/* Features */
+.features {
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.features .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-content .card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.feature-content .card h4 {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.feature-img img {
+    height: 90%;
+    margin-left: 50px;
+}
+.ten-years-badge {
+    border-radius: 8px;
+    background-color: #FF900E;
+    width: 340px;
+    padding: 40px;
+    position: relative;
+    bottom: 100px;
+}
+.ten-years-badge h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 40px; /* 107.692% */
+}
+.ten-years-badge p {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+}
 /* Facts section */
 .facts-card-container {
     display: flex;
